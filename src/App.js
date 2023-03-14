@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button, TextField, ToggleButtonGroup } from '@mui/material';
+import Login from './components/Login';
+import Navbar from './components/Navbar';
+import Statebasic from './components/Statebasic';
+import Trial from './components/Trial';
+import Counter from './components/Counter';
+import Card from './components/Card';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card/>
+      {/* <Counter/> */}
+      {/* <Trial/> */}
+      {/* <Statebasic/> */}
+      {/* <Navbar/> */}
+     {/* <Login/> */}
     </div>
   );
 }
